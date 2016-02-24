@@ -1,5 +1,16 @@
-
+/**
+ * Methods that check if input given by user is valid
+ * @author Lucas
+ *
+ */
 public class dataVerifcationFunctions {
+  
+  /**
+   * Checks if the year entered is actually an integer and if it is between a
+   * reasonable time period
+   * @param year the entered year as a String
+   * @return true if valid, false otherwise
+   */
    public boolean verifyYear(String year) {
 	   try{		  
 		   int year2 = Integer.parseInt(year);
@@ -12,6 +23,12 @@ public class dataVerifcationFunctions {
 	   }
 	   return false;
    }
+   /**
+    * Checks for valid months and days for those months
+    * @param year the entered year as a String
+    * @param response the month and day
+    * @return true if valid, false otherwise
+    */
    public boolean verifyDayAndMonth(int year,String response) {
 	   try {
 		   
@@ -93,13 +110,71 @@ public class dataVerifcationFunctions {
 	   }
 	return false;
    }
-   
+   /**
+    * Verifies if the time entered was an integer, and if it is a valid time.
+    * It splits hours and minutes. The String entered should contain 4 characters.
+    * @param time
+    * @return
+    */
    public boolean verifyTime(String time){ 
+	   try{
+		   int hours = Integer.parseInt(time.substring(0,2));
+		   int minutes = Integer.parseInt(time.substring(2));
+		   if(hours >= 0 && hours < 25) {
+		       if(minutes <= 60 && minutes >= 0) {
+		    	   return true;		    	   
+		       }
+		   }
+	   }
+	   catch (Exception e) {
+	       return false;
+	   }
 	   return false;
    }
    
-   public boolean verifyFuture(String start, String end) {
-	   return false;
+   /**
+    * Make sure to use other methods to verify the parameters first.
+    * This checks if the end time is after the start time.
+    * @param year1
+    * @param year2
+    * @param monthAndDay1
+    * @param monthAndDay2
+    * @param time1
+    * @param time2
+    * @return
+    */
+   public boolean verifyFuture(String year1, String year2, String monthAndDay1, String monthAndDay2, String time1,
+		   String time2) {
+	   int year2int = Integer.parseInt(year2);
+	   int year1int = Integer.parseInt(year1);
+	   
+	   int monthAndDay2int = Integer.parseInt(monthAndDay2);
+	   int monthAndDay1int = Integer.parseInt(monthAndDay1);
+	   
+	   int time2int = Integer.parseInt(time2);
+	   int time1int = Integer.parseInt(time1);
+	   
+	   if(year2int < year1int) {
+		   return false;
+	   }
+	   if(year2int > year1int) {
+		   return true;
+	   }
+       //when the years are equal
+	   if(monthAndDay2int < monthAndDay1int) {
+		   return false;
+	   }
+	   if(monthAndDay2int > monthAndDay1int) {
+		   return true;
+	   }
+	   //when month and day are equal
+	   if(time2int < time1int) { //currently accepts cases where start times and end times are equal
+		   return false;
+	   }
+	   if(time2int >= time1int) { 
+		   return true;
+	   }
+       return false;
    }
    
 }

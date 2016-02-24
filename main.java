@@ -79,7 +79,7 @@ public class main {
 					       "add zeros where necessary");
 					   response = scan.nextLine();
 					   buffWriter.write(response + "00\n");
-						
+					
 						/*date end*/ 
 						/*System.out.println("Please enter the year this ends in 4 integers");
 						response = scan.nextLine();
