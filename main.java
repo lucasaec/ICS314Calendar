@@ -1,6 +1,11 @@
-
 import java.io.*;
 import java.util.Scanner;
+/**
+* Contains additions by Nick which include adding code to write
+* the end date, summary, and the location. The rest was done, by Lucas for
+* this particular file
+*
+*/
 public class main {
    public static void main(String[]args) {
 	   System.out.println("This software is currently only meant for you to add only one event");
@@ -65,21 +70,44 @@ public class main {
 			            * might need to add variables for month and year I don't think 
 			            * events last longer than a month*/
 			           
-					   System.out.println("Please enter the year this starts in 4 integers");
-						
+					   //Gets location name of event
+					   System.out.println("Enter your location");
+					   response = scan.nextLine();
+					   buffWriter.write("LOCATION:" + response + "\n");
+					   
+					   //Gets summary of event
+					   System.out.println("Enter event summary");
+					   response = scan.nextLine();
+					   buffWriter.write("SUMMARY:" + response + "\n");
+					   
+					   //Event start details
+					   System.out.println("Please enter the year this STARTS in 4 integers");
 					   response = scan.nextLine();
 					   buffWriter.write("DTSTART;TZID=Pacific/Honolulu:" + response);
-					   System.out.println("Please enter the month this starts in 2 integers followed by the day,"
+					   System.out.println("Please enter the month this STARTS in 2 integers followed by the day,"
 								+ "place 0's when necessary, for example July 4 would be 0704");
 					   response = scan.nextLine();
 					  
 					   buffWriter.write(response + "T");
-				       /** I need to double check this one*/
-					   System.out.println("Enter the start time in 4 digits, after 12:00pm is 13:00, " + 
+					   System.out.println("Enter the START time in 4 digits, after 12:00pm is 13:00, " + 
 					       "add zeros where necessary");
 					   response = scan.nextLine();
 					   buffWriter.write(response + "00\n");
-					
+					   
+					   //Event End Details
+					   System.out.println("Please enter the year the event ENDS in 4 integers");
+					   response = scan.nextLine();
+					   buffWriter.write("DTEND;TZID=Pacific/Honolulu:" + response);
+					   System.out.println("Please enter the month this ENDS in 2 integers followed by the day,"
+								+ "place 0's when necessary, for example July 4 would be 0704");
+					   response = scan.nextLine();
+					   
+					   buffWriter.write(response + "T");
+					   System.out.println("Enter the END time in 4 digits, after 12:00pm is 13:00, " + 
+					       "add zeros where necessary");
+					   response = scan.nextLine();
+					   buffWriter.write(response + "00\n");
+					   						
 						/*date end*/ 
 						/*System.out.println("Please enter the year this ends in 4 integers");
 						response = scan.nextLine();
