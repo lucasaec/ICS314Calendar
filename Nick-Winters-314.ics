@@ -1,0 +1,646 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Work
+X-WR-TIMEZONE:Pacific/Honolulu
+X-APPLE-CALENDAR-COLOR:#CC73E1
+BEGIN:VTIMEZONE
+TZID:Pacific/Honolulu
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-1030
+DTSTART:19330430T020000
+TZNAME:HDT
+TZOFFSETTO:-0930
+RDATE:19330430T020000
+RDATE:19420209T020000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-1030
+DTSTART:19470608T020000
+TZNAME:HST
+TZOFFSETTO:-1000
+RDATE:19470608T020000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20141010T214608Z
+UID:8B47085D-D5E5-405A-AC2F-CE1314E6E653
+DTEND;VALUE=DATE:20141017
+TRANSP:OPAQUE
+SUMMARY:Biology test
+DTSTART;VALUE=DATE:20141016
+DTSTAMP:20141010T214955Z
+LAST-MODIFIED:20141010T214608Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:90264497-3A8D-4EBF-84AD-C74BC85702ED
+UID:90264497-3A8D-4EBF-84AD-C74BC85702ED
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141010T213916Z
+UID:85D6DBCD-98C2-4112-9323-CDBD05ACCBBC
+DTEND;VALUE=DATE:20141026
+TRANSP:OPAQUE
+SUMMARY:Vex iq tournament
+DTSTART;VALUE=DATE:20141025
+DTSTAMP:20141024T190030Z
+LOCATION:Punahou
+LAST-MODIFIED:20141010T213916Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:822710C1-409D-4775-A729-798AF7AF1505
+UID:822710C1-409D-4775-A729-798AF7AF1505
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20141024T190030Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141010T214147Z
+UID:F8392054-607D-4370-ACC9-C99DFF0E625C
+DTEND;TZID=Pacific/Honolulu:20141021T210000
+TRANSP:OPAQUE
+SUMMARY:Wordpress class
+DTSTART;TZID=Pacific/Honolulu:20141021T180000
+DTSTAMP:20141021T040006Z
+LOCATION:Uh manoa
+LAST-MODIFIED:20141021T040005Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:00D3C8FA-4EEA-4001-8C1B-556265586AB5
+UID:00D3C8FA-4EEA-4001-8C1B-556265586AB5
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20141020T050817Z
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:2C84D3E8-74E0-44F7-931F-5437622B7A6D
+UID:2C84D3E8-74E0-44F7-931F-5437622B7A6D
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141021T040005Z
+TRIGGER:-P1D
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:4BD9E9DC-79BC-4FB3-832B-3C248B38ECB5
+UID:4BD9E9DC-79BC-4FB3-832B-3C248B38ECB5
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141020T050817Z
+TRIGGER:-P2D
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141013T221853Z
+UID:C10BB383-F3B1-4415-B76E-A3A3D66A8D8D
+DTEND;VALUE=DATE:20141024
+TRANSP:OPAQUE
+SUMMARY:Ics 141 chapter 4 exam
+DTSTART;VALUE=DATE:20141023
+DTSTAMP:20141022T225620Z
+LAST-MODIFIED:20141013T221853Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:AF244882-D082-4CEA-B2EE-19A819D14E39
+UID:AF244882-D082-4CEA-B2EE-19A819D14E39
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20141022T225620Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141010T214452Z
+UID:70DBCEE9-3F8E-4A8D-AD4A-D6FCDC4C1A18
+DTEND;VALUE=DATE:20141023
+TRANSP:OPAQUE
+SUMMARY:Chem midterm
+DTSTART;VALUE=DATE:20141022
+DTSTAMP:20141022T020116Z
+LAST-MODIFIED:20141022T020109Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:8A9A0A6D-CF9F-4AC5-B647-38B8FACE3711
+UID:8A9A0A6D-CF9F-4AC5-B647-38B8FACE3711
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20141022T020109Z
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:003850AC-883E-44F4-852E-5170B91362DB
+UID:003850AC-883E-44F4-852E-5170B91362DB
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141022T020109Z
+TRIGGER:-PT15H
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:6802CADC-49F2-4D9D-87E9-4409079A0741
+UID:6802CADC-49F2-4D9D-87E9-4409079A0741
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141022T020109Z
+TRIGGER:-P6DT15H
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141010T214342Z
+UID:A9F25AD3-D05C-4CC3-BC77-2FDF5C4BA7F0
+DTEND;TZID=Pacific/Honolulu:20141213T160000
+TRANSP:OPAQUE
+SUMMARY:Wordpress class
+DTSTART;TZID=Pacific/Honolulu:20141213T090000
+DTSTAMP:20141211T190111Z
+LOCATION:Uh mano
+LAST-MODIFIED:20141206T190007Z
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:2E601824-6C9D-4F3C-B95F-2E4A4B766DBA
+UID:2E601824-6C9D-4F3C-B95F-2E4A4B766DBA
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20141211T190111Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:9AC6CDC7-A5AC-45F3-9D20-DE9D74C1FC39
+UID:9AC6CDC7-A5AC-45F3-9D20-DE9D74C1FC39
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141211T190111Z
+TRIGGER:-P1W
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:37D1CF71-2CB9-44A4-A973-E71177158F95
+UID:37D1CF71-2CB9-44A4-A973-E71177158F95
+DESCRIPTION:Reminder
+ACKNOWLEDGED:20141211T190111Z
+TRIGGER:-P2D
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151219T080000
+UID:j5vbra8i4thu3adpveq67ofti8@google.com
+DTSTAMP:20151209T031529Z
+DESCRIPTION:
+URL;VALUE=URI:http://www.alohastartups.com/event/townhall/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:TownHall
+DTSTART;TZID=Pacific/Honolulu:20151219T040000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20151226
+UID:rft3s388hg4ohccim9htsqm3to@google.com
+DTSTAMP:20151224T193454Z
+URL;VALUE=URI:http://www.alohastartups.com/event/closed-christmas-day/
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+CATEGORIES:
+SUMMARY:CLOSED (Christmas Day)
+DTSTART;VALUE=DATE:20151225
+LAST-MODIFIED:20151224T193453Z
+CREATED:20151209T031547Z
+BEGIN:VALARM
+X-WR-ALARMUID:ADAD06BD-F347-40F7-B28F-9C08F957BD6B
+UID:ADAD06BD-F347-40F7-B28F-9C08F957BD6B
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20151224T193453Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151212T210000
+UID:a1sbq34l2gbu1kipte8i5n00to@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:Computational Thinkers ( 4224 Wai'alae Ave #2 \, Honolulu\, HI)
+ 
+DESCRIPTION:PyHawaii: the Pacific’s premier Python Users Group\nSaturday
+ \, December 12 at 8:00 AM\nHawaii’s very first DjangoGirls Workshop is b
+ rought to you by Computational Thinkers and PyHawaii. Make sure to regis
+ ter here: DjangoGirls.org/Honolul…\nhttp://www.meetup.com/PyHawaii-Pytho
+ n-Users-Group/events/226782276/ …\nLink: http://www.meetup.com/PyHawaii-
+ Python-Users-Group/events/226782276/
+URL;VALUE=URI:http://www.alohastartups.com/event/djangogirls-workshop/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:Startup Digest
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>PyHawaii
+ : the Pacific’s premier Python Users Group<br />\nSaturday\, December 12
+  at 8:00 AM</p>\n<p>Hawaii’s very first DjangoGirls Workshop is brought 
+ to you by Computational Thinkers and PyHawaii. Make sure to register her
+ e: DjangoGirls.org/Honolul…</p>\n<p>http://www.meetup.com/PyHawaii-Pytho
+ n-Users-Group/events/226782276/ …</p>\n<p>Link: http://www.meetup.com/Py
+ Hawaii-Python-Users-Group/events/226782276/</p>\n<div class='shareaholic
+ -canvas' data-app-id='18931222' data-app='share_buttons' data-title='' d
+ ata-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:DjangoGirls Workshop
+DTSTART;TZID=Pacific/Honolulu:20151212T180000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151223T200000
+UID:r3p77t2jt2295bdfvl4g2mut5o@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:HICapacity
+DESCRIPTION:Challenge other members to the game of the night. Game of th
+ e night TBA the week of the Game Night in the weekly emails.
+URL;VALUE=URI:http://www.alohastartups.com/event/game-night/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:HI Capacity
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Challeng
+ e other members to the game of the night. Game of the night TBA the week
+  of the Game Night in the weekly emails. </p>\n<div class='shareaholic-c
+ anvas' data-app-id='18931222' data-app='share_buttons' data-title='' dat
+ a-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Game Night!
+DTSTART;TZID=Pacific/Honolulu:20151223T190000
+CREATED:20151209T031547Z
+RRULE:FREQ=MONTHLY;BYDAY=4WE
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20160105
+UID:thhdcfg9fti1fpr1mak0mtunu0@google.com
+DTSTAMP:20151223T193421Z
+URL;VALUE=URI:http://www.alohastartups.com/event/closed/
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+CATEGORIES:
+SUMMARY:CLOSED
+DTSTART;VALUE=DATE:20151224
+LAST-MODIFIED:20151223T193420Z
+CREATED:20151209T031547Z
+BEGIN:VALARM
+X-WR-ALARMUID:07C18883-687A-4820-8729-18FB0850316C
+UID:07C18883-687A-4820-8729-18FB0850316C
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20151223T193420Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151220T053000
+UID:0atvee95j1n1t0f6u1sji4it4o@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:Theater TBD: (Will update soon!\, Honolulu\, HI)
+DESCRIPTION:PyHawaii: the Pacific’s premier Python Users Group\nSaturday
+ \, December 19 at 5:30 PM\nStar Wars Movie Night: We plan to take breath
+ er from teaching/learning to see the work of Python Coders from a galaxy
+  far far away… that’s right: In…\nhttp://www.meetup.com/PyHawaii-Python-
+ Users-Group/events/227057518/ …\nLink: http://www.meetup.com/PyHawaii-Py
+ thon-Users-Group/events/227057518/
+URL;VALUE=URI:http://www.alohastartups.com/event/python-weekly-14/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:Startup Digest
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>PyHawaii
+ : the Pacific’s premier Python Users Group<br />\nSaturday\, December 19
+  at 5:30 PM</p>\n<p>Star Wars Movie Night: We plan to take breather from
+  teaching/learning to see the work of Python Coders from a galaxy far fa
+ r away… that’s right: In…</p>\n<p>http://www.meetup.com/PyHawaii-Python-
+ Users-Group/events/227057518/ …</p>\n<p>Link: http://www.meetup.com/PyHa
+ waii-Python-Users-Group/events/227057518/</p>\n<div class='shareaholic-c
+ anvas' data-app-id='18931222' data-app='share_buttons' data-title='' dat
+ a-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Python Weekly
+DTSTART;TZID=Pacific/Honolulu:20151220T033000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151210T060000
+UID:7n4fnepb7d24ha5puo2039875s@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:The Box Jelly (307 Kamani St Ste A\, Honolulu\, HI\, USA)
+DESCRIPTION:Code for Hawaii | A Code for America Brigade\nWednesday\, De
+ cember 9 at 6:00 PM\nCome join us for our Bi-monthly Project Night at th
+ e Box Jelly co-working space as we work together solving Hawaii civic is
+ sues. This is your chance t…\nhttp://www.meetup.com/Code-for-Hawaii/even
+ ts/226976105/ …\nLink: http://www.meetup.com/Code-for-Hawaii/events/2269
+ 76105/
+URL;VALUE=URI:http://www.alohastartups.com/event/bi-monthly-code-for-haw
+ aii-project-night-2-2/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:Startup Digest
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Code for
+  Hawaii | A Code for America Brigade<br />\nWednesday\, December 9 at 6:
+ 00 PM</p>\n<p>Come join us for our Bi-monthly Project Night at the Box J
+ elly co-working space as we work together solving Hawaii civic issues. T
+ his is your chance t…</p>\n<p>http://www.meetup.com/Code-for-Hawaii/even
+ ts/226976105/ …</p>\n<p>Link: http://www.meetup.com/Code-for-Hawaii/even
+ ts/226976105/</p>\n<div class='shareaholic-canvas' data-app-id='18931222
+ ' data-app='share_buttons' data-title='' data-link='' data-summary=''></
+ div></BODY></HTML>
+SUMMARY:Bi-monthly Code for Hawaii Project Night (#2)
+DTSTART;TZID=Pacific/Honolulu:20151210T040000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20151225
+UID:p0qod2fqhhsrttq26v2j6alu5g@google.com
+DTSTAMP:20151223T193424Z
+URL;VALUE=URI:http://www.alohastartups.com/event/closed-christmas-eve/
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+CATEGORIES:
+SUMMARY:CLOSED (Christmas Eve)
+DTSTART;VALUE=DATE:20151224
+LAST-MODIFIED:20151223T193424Z
+CREATED:20151209T031547Z
+BEGIN:VALARM
+X-WR-ALARMUID:675E31CB-4524-49A2-BA6C-85EE9C81689E
+UID:675E31CB-4524-49A2-BA6C-85EE9C81689E
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20151223T193424Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151210T190000
+UID:jlc1aqvmmvvvh2hqt8qag2s9uc@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:HICapacity
+DESCRIPTION:Infrastructure as Code? Agile Operations? Kubernetes? Micros
+ oft Azure? Docker? If any of these words pique your interest\, make sure
+  to come down and check out the inaugural DevOps Club meeting at 3 PM th
+ is Thursday. Come help shape our future!
+URL;VALUE=URI:http://www.alohastartups.com/event/devops-club/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:HI Capacity
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Infrastr
+ ucture as Code? Agile Operations? Kubernetes? Microsoft Azure? Docker? I
+ f any of these words pique your interest\, make sure to come down and ch
+ eck out the inaugural DevOps Club meeting at 3 PM this Thursday. Come he
+ lp shape our future!</p>\n<div class='shareaholic-canvas' data-app-id='1
+ 8931222' data-app='share_buttons' data-title='' data-link='' data-summar
+ y=''></div></BODY></HTML>
+SUMMARY:DevOps Club
+DTSTART;TZID=Pacific/Honolulu:20151210T180000
+CREATED:20151209T031547Z
+RRULE:FREQ=WEEKLY;BYDAY=TH
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151216T200000
+UID:11651an8l8j3ef07mkm620h69o@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:HICapacity
+DESCRIPTION:General Meeting about the current status and direction of HI
+ Capacity.
+URL;VALUE=URI:http://www.alohastartups.com/event/general-meeting/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:HI Capacity
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>General 
+ Meeting about the current status and direction of HICapacity. </p>\n<div
+  class='shareaholic-canvas' data-app-id='18931222' data-app='share_butto
+ ns' data-title='' data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:General Meeting
+DTSTART;TZID=Pacific/Honolulu:20151216T190000
+CREATED:20151209T031547Z
+RRULE:FREQ=MONTHLY;BYDAY=3WE
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20160102
+UID:thcb6saq4m5dh8952s39n727dc@google.com
+DTSTAMP:20151231T210513Z
+DESCRIPTION:
+URL;VALUE=URI:http://www.alohastartups.com/event/closed-new-years-day/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:CLOSED (New Year’s Day)
+DTSTART;VALUE=DATE:20160101
+CREATED:20151209T031547Z
+BEGIN:VALARM
+X-WR-ALARMUID:174AD8BF-2FF9-44EA-8A8C-A72232D62960
+UID:174AD8BF-2FF9-44EA-8A8C-A72232D62960
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20151231T210513Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151210T050000
+UID:6pe5aggee7do6dimrulk3ecg84@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:The Box Jelly (307 Kamani St Ste A\, Honolulu\, HI\, USA)
+DESCRIPTION:PyHawaii: the Pacific’s premier Python Users Group\nWednesda
+ y\, December 9 at 5:30 PM\nPython Weekly    Sponsored by Dark Art of Cod
+ ing\, HiCapacity and The Box Jelly  Our meetups are a place for seasoned
+  Pythonistas and aspiring code mon…\nhttp://www.meetup.com/PyHawaii-Pyth
+ on-Users-Group/events/225001923/ …\nLink: http://www.meetup.com/PyHawaii
+ -Python-Users-Group/events/225001923/
+URL;VALUE=URI:http://www.alohastartups.com/event/python-weekly-15/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:Startup Digest
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>PyHawaii
+ : the Pacific’s premier Python Users Group<br />\nWednesday\, December 9
+  at 5:30 PM</p>\n<p>Python Weekly    Sponsored by Dark Art of Coding\, H
+ iCapacity and The Box Jelly  Our meetups are a place for seasoned Python
+ istas and aspiring code mon…</p>\n<p>http://www.meetup.com/PyHawaii-Pyth
+ on-Users-Group/events/225001923/ …</p>\n<p>Link: http://www.meetup.com/P
+ yHawaii-Python-Users-Group/events/225001923/</p>\n<div class='shareaholi
+ c-canvas' data-app-id='18931222' data-app='share_buttons' data-title='' 
+ data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Python Weekly
+DTSTART;TZID=Pacific/Honolulu:20151210T033000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151210T210000
+UID:D22F54CE-AB18-47AF-9089-6AF4CA850C9E
+DTSTAMP:20151209T031529Z
+DESCRIPTION:Bring your laptops and your coding projects. Get your hack o
+ n!
+URL;VALUE=URI:http://www.alohastartups.com/event/programming-night/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:HI Capacity
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Bring yo
+ ur laptops and your coding projects. Get your hack on!</p>\n<div class='
+ shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' data
+ -title='' data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Programming Night
+DTSTART;TZID=Pacific/Honolulu:20151210T190000
+CREATED:20151209T031547Z
+RRULE:FREQ=WEEKLY;BYDAY=TH
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20160102T130000
+UID:lcplerpv9a5apf72ao7c2o7mik@google.com
+DTSTAMP:20151209T031529Z
+DESCRIPTION:http://leanincircles.org/circle/crunch-brunch
+URL;VALUE=URI:http://www.alohastartups.com/event/crunch-brunch-7/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>http://l
+ eanincircles.org/circle/crunch-brunch</p>\n<div class='shareaholic-canva
+ s' data-app-id='18931222' data-app='share_buttons' data-title='' data-li
+ nk='' data-summary=''></div></BODY></HTML>
+SUMMARY:Crunch Brunch
+DTSTART;TZID=Pacific/Honolulu:20160102T100000
+CREATED:20151209T031547Z
+RRULE:FREQ=MONTHLY;BYDAY=1SA
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151209T200000
+UID:s72um7ppsn6nb0mgjed1rksc1c@google.com
+DTSTAMP:20151209T031529Z
+LOCATION:HICapacity
+DESCRIPTION:Challenge other members to the game of the night. Game of th
+ e night TBA the week of the Game Night in the weekly emails.
+URL;VALUE=URI:http://www.alohastartups.com/event/game-night-2/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:HI Capacity
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Challeng
+ e other members to the game of the night. Game of the night TBA the week
+  of the Game Night in the weekly emails. </p>\n<div class='shareaholic-c
+ anvas' data-app-id='18931222' data-app='share_buttons' data-title='' dat
+ a-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Game Night!
+DTSTART;TZID=Pacific/Honolulu:20151209T190000
+CREATED:20151209T031547Z
+RRULE:FREQ=MONTHLY;BYDAY=2WE
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Pacific/Honolulu:20151212T073000
+UID:95tm0l78l7elocacq08ubgmifc@google.com
+DTSTAMP:20151209T031529Z
+DESCRIPTION:Oahu Online Business\nFriday\, December 11 at 6:30 PM\nThe A
+ mazon FBA/Ebay Sellers (AFES) group is a new sub-group of the Oahu Onlin
+ e Business Group. AFES is a place for Hawaii Amazon and Ebay sellers to 
+ h…\nhttp://www.meetup.com/Oahu-Business/events/226023648/ …\nLink: http:
+ //www.meetup.com/Oahu-Business/events/226023648/
+URL;VALUE=URI:http://www.alohastartups.com/event/lets-meet-to-learn-new-
+ tips-and-tricks-to-grow-your-amazon-fba-ebay-business/
+CONTACT:
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:Startup Digest
+CATEGORIES:
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><p>Oahu Onl
+ ine Business<br />\nFriday\, December 11 at 6:30 PM</p>\n<p>The Amazon F
+ BA/Ebay Sellers (AFES) group is a new sub-group of the Oahu Online Busin
+ ess Group. AFES is a place for Hawaii Amazon and Ebay sellers to h…</p>\
+ n<p>http://www.meetup.com/Oahu-Business/events/226023648/ …</p>\n<p>Link
+ : http://www.meetup.com/Oahu-Business/events/226023648/</p>\n<div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+SUMMARY:Lets meet to learn new tips and tricks to grow your Amazon FBA-E
+ bay business.
+DTSTART;TZID=Pacific/Honolulu:20151212T043000
+CREATED:20151209T031547Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20160101
+UID:je7679qloiepe3uffqcfu7k7rs@google.com
+DTSTAMP:20151230T190015Z
+URL;VALUE=URI:http://www.alohastartups.com/event/closed-new-years-eve/
+SEQUENCE:0
+X-TAGS;LANGUAGE=en-US:TBJ
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 3.2
+ //EN'>\\n<HTML>\\n<HEAD>\\n<TITLE></TITLE>\\n</HEAD>\\n<BODY><div class=
+ 'shareaholic-canvas' data-app-id='18931222' data-app='share_buttons' dat
+ a-title='' data-link='' data-summary=''></div></BODY></HTML>
+CATEGORIES:
+SUMMARY:CLOSED (New Year’s Eve)
+DTSTART;VALUE=DATE:20151231
+LAST-MODIFIED:20151230T190010Z
+CREATED:20151209T031547Z
+BEGIN:VALARM
+X-WR-ALARMUID:2F93307B-2A15-4EBC-81DD-4B573EC1A959
+UID:2F93307B-2A15-4EBC-81DD-4B573EC1A959
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20151230T190010Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
